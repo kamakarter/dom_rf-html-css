@@ -1,0 +1,166 @@
+/* style for components*/
+
+:root {
+
+    --color-orange-basic: #FBA53B;
+
+    --color-red-basic: #F74A3E;
+
+    --color-green-basic: #74BB16;
+
+    --color-purple-basic: #AA58CC;
+
+    --color-black-basic: #282828;
+
+    /* gray colors */
+    --color-gray-light: #F0F2EE;
+    --color-gray-medium: #dddddd;
+    --color-gray: #bababa;
+}
+
+/* containers */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 1px red solid;
+    border: 0 1px 0 1px;
+}
+
+.main_content_btn_box {
+    position: relative;
+    max-width: auto;
+    width: auto;
+}
+
+/* buttons */
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    border: none;
+    padding: 16px 32px;
+}
+
+.btn.orange:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 19px 49px 0px rgba(235, 151, 55, 0.15); 
+    filter: brightness(105%);
+}
+
+.btn.orange {
+    color:#fff;
+    font-weight: 500;
+    line-height: 136%;
+    background: linear-gradient(90deg, #E1994D 0%, #E6A959 56%, #EAB864 100%);
+    box-shadow: 0px 19px 49px 0px rgba(229, 161, 83, 0.10); 
+}
+
+.btn.more {
+    border: 1px solid var(--color-gray-medium);
+    border-radius: 16px;
+    color: var(--color-black-basic);
+    font-weight: 500;
+}
+
+.btn.more:hover {
+    background: #ffffff05;
+    color: #fff;
+}
+
+/* position */
+
+.relative {
+    position: relative;
+}
+
+/* backgrounds */
+
+.purple.bg {
+    background: var(--color-purple-basic);
+}
+
+.red.bg {
+    background: var(--color-red-basic);
+}
+
+.green.bg {
+    background: var(--color-green-basic);
+}
+
+.orange.bg {
+    background: var(--color-orange-basic);
+}
+
+/* colors */
+
+.purple.color {
+    color: var(--color-purple-basic);
+}
+
+.red.color {
+    color: var(--color-red-basic);
+}
+
+.green.color {
+    color: var(--color-green-basic);
+}
+
+.orange.color {
+    color: var(--color-orange-basic);
+}
+
+
+/* heading text */
+
+h1 {
+    color: var(--color-black-basic);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+h1 span {
+    color: var(--color-black-basic);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 57.6px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-black-basic);
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* normal text */
+
+
+
+
+

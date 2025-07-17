@@ -1,0 +1,6 @@
+/* Главный файл стилей */
+
+
+@import url('adaptive.css');
+@import url('components.css');
+@import url('style.css');
