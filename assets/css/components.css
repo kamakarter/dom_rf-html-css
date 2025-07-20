@@ -1,3 +1,5 @@
+
+
 /* style for components*/
 
 :root {
@@ -15,7 +17,9 @@
     /* gray colors */
     --color-gray-light: #F0F2EE;
     --color-gray-medium: #dddddd;
-    --color-gray: #bababa;
+    --color-gray: #858484;
+    --color-gray-dark-light: #5e5e5e;
+    --color-gray-dark-medium: #424242;
 }
 
 /* containers */
@@ -158,7 +162,19 @@ h5 {
     line-height: 1.2;
 }
 
-/* normal text */
+/* input */
+
+
+input {
+    outline: none;
+    border-radius: 90px;
+    border: none;
+    background: #fff;
+    padding: 8px 16px;
+}
+
+
+
 
 
 

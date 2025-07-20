@@ -1,6 +1,7 @@
 /* Главный файл стилей */
 
 
-@import url('adaptive.css');
+/* @import url('normalize.css'); */
 @import url('components.css');
 @import url('style.css');
+@import url('adaptive.css');

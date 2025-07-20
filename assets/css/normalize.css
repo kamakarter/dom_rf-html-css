@@ -1,0 +1,104 @@
+/* Сброс стилей для формы и её элементов */
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* Общие стили для всех типов input */
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none; /* Убираем дефолтный фокус (можно переопределить позже) */
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  line-height: normal;
+  appearance: none; /* Убираем дефолтные стили в некоторых браузерах */
+  border-radius: 0; /* Убираем скругления в iOS */
+}
+
+/* Убираем стрелки у number input в Chrome, Safari, Edge */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Убираем крестик в IE для input[type="search"] */
+input[type="search"]::-ms-clear {
+  display: none;
+}
+
+/* Убираем крестик в Chrome, Safari */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+/* Убираем дефолтный стиль date/time input в Safari */
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"] {
+  -webkit-appearance: none;
+}
+
+/* Убираем дефолтный фон автозаполнения в Chrome */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Сброс для textarea (по аналогии с input) */
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  resize: none; /* Отключаем изменение размера (можно переопределить) */
+  appearance: none;
+}
+
+/* Сброс для select (если нужно) */
+select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  appearance: none;
+}
+
+/* Убираем дефолтные стили для кнопок */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+  appearance: none;
+}
